@@ -2,7 +2,7 @@ language: python
 python:
   - "2.7"
 install:
-  - "sudo add-apt ppa:wasta-linux/wasta-testing"
+  - "sudo add-apt-repository ppa:wasta-linux/wasta-testing"
   - "sudo apt-get update"
   - "sudo echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections"
   - "sudo apt-get install ttf-mscorefonts-installer"
